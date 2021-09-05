@@ -43,6 +43,10 @@ h2 {
 }
 
 /** quotes **/ 
+.quote {
+    background: #549DA0;
+    color: white
+}
 blockquote {
     margin: 0;
     padding: 0;
