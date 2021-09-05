@@ -1,4 +1,4 @@
-# Web projects repository
+# Simple Web projects repository
 
 Mostly tutorial projects, simple HTML and CSS stuff.<br>
 Maybe in some time i can do something more interesting with them. 
