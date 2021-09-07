@@ -9,6 +9,19 @@ h2 {
     margin: 0 0 16px 0;
 }
 
+header {
+    color: #FFF;
+    background-color: #284b63;
+    padding: 80px 0;
+    text-align: center;
+}
+
+section { 
+    padding: 40px 0;
+    text-align: center;
+}
+
+
 .container {
     margin: 0 auto;
     padding: 0 20px;
@@ -33,6 +46,10 @@ h2 {
 }
 
 /** features **/
+.features {
+    background: #FFF;
+    color: #000;
+}
 .feature {
     width: 32%;
     display: inline-block; 
@@ -45,7 +62,7 @@ h2 {
 /** quotes **/ 
 .quote {
     background: #549DA0;
-    color: white
+    color: white;
 }
 blockquote {
     margin: 0;
