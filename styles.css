@@ -23,15 +23,6 @@ footer {
     width: 100%;
 }
 
-@media (min-width: 768px) {
-    footer {
-        position: fixed;
-        left: 0;
-        bottom: 0;
-    }
-}
-
-
 .name {
     font-size: large;
     font-weight: bold;
@@ -42,14 +33,14 @@ footer {
 .container {
     margin: 0 auto;
     width: 90%;
-    min-height: 400px;
-    margin-bottom: 20px;
 }
 
 @media (min-width: 768px) {
     .container {
         padding: 20px;
         width: 50%;
+        min-height: 400px;
+        margin-bottom: 20px;
     }
 }
 
