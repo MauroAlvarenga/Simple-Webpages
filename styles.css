@@ -1,5 +1,7 @@
 body {
     background: url(./bigsurwallp1080.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
     margin: 0;
 }
