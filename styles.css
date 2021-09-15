@@ -50,6 +50,10 @@ footer {
     justify-content: space-between;
 }
 
+.fill-vh { 
+    min-height: 100vh;
+}
+
 .card {
     padding: 20px 0;
     margin: 20px auto;
