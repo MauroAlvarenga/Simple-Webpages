@@ -24,6 +24,28 @@ header {
     text-align: center;
 }
 
+/** SubMenu **/
+.submenu { 
+    background-color: #549DA0;
+    min-width: 160px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%, 0);
+    text-align: center;
+}
+.submenu a { 
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.submenu a:hover { 
+    background-color: #468486;
+}
+
+/** Main **/
 section { 
     padding: 40px 0;
     text-align: center;
@@ -156,5 +178,9 @@ footer li a:hover {
     }
     footer { 
         padding: 30px 0 10px 0;
+    }
+    .submenu {
+        width: 100%;
+        position: relative;
     }
 }
