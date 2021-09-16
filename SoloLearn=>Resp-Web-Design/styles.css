@@ -44,6 +44,7 @@ header {
 }
 .submenu a:hover { 
     background-color: #468486;
+    border-radius: 5px;
 }
 
 /** Main **/
