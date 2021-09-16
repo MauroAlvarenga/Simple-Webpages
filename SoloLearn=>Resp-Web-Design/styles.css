@@ -17,6 +17,12 @@ h2 {
     margin: 0 0 16px 0;
 }
 
+h3 { 
+    font-weight: 300;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
 header {
     color: #FFF;
     background-color: #284b63;
@@ -62,7 +68,7 @@ section {
 .btn {
     display: inline-block;
     color: white;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1.25rem;
     text-decoration: none;
     background: #549DA0;
