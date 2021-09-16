@@ -6,16 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Awesome Webpage - Sololearn</title>
     <link rel="stylesheet" href="./styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 </head>
 <body>
     <header>
         <div class="container">
             <h1>Awesome Webpage</h1>
             <h2>This Webpage will change your life! </h2>
-            <a href="" class="btn">Tap Here!</a>
+            <a href="#" class="btn">Tap Here!</a>
             <div class="submenu">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
+                <a href="https://linkedin.com/in/mauroalvarenga1/">My LinkedIn</a>
+                <a href="https://www.sololearn.com/">Learn to Code!</a>
                 <a href="../index.html">Back to Index</a>
             </div>
         </div>
@@ -63,5 +64,13 @@
             <p>Alvarenga Mauro 2021</p>
         </div>
     </footer>
+    <script>
+        $(function() {
+            $(".btn").click(function() {
+                $(".submenu").slideToggle(500);
+            });
+        });
+    </script>
+
 </body>
 </html>
