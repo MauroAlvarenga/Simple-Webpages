@@ -77,6 +77,16 @@ footer {
     text-align: center;
 }
 
+.disabled {
+    cursor: not-allowed;
+}
+
+.disabled:hover { 
+    transform: none;
+    transition: none;
+    background-color: rgba(255.0, 255.0, 255.0, 0.6);
+}
+
 .blackglass {
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
