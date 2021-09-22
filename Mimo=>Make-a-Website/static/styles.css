@@ -16,8 +16,14 @@ p {
 
 .header { 
     background-color: #1abc9c;
-    height: 150px;
-    line-height: 150px;
+    height: 15vh;
+}
+
+.flex-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
 }
 
 .header a { 
@@ -34,15 +40,12 @@ p {
 
 #header-title {
     display: block;
-    float: left;
     font-size: 20px;
     font-weight: bold;
 }
 
 #header-nav {
     display: block;
-    float: right;
-    margin-top: 0;
 }
 
 #header-nav li { 
@@ -77,14 +80,13 @@ a:hover {
 .post-author img {
     width: 80px;
     height: 80px;
-    vertical-align: middle;
     border-radius: 50%;
     border: solid 1px #a2a2a2;
     filter: drop-shadow(0 0 4px rgba(0, 0 , 0, 0.5));
 }
 
-.post-author span{
-    margin-left: 16px;
+.post-author{
+    font-weight: bold;
 }
 
 .post-date{ 
@@ -140,11 +142,17 @@ a:hover {
     line-height: 1.8;
 }
 
+/* Mobile */
 @media (max-width: 767px) {
     .header { 
         height: 12vh;
-        line-height: 12vh;
-        padding: 0 1.5vh;
+        padding: 0 3vw;
+    }
+    #header-title {
+        font-size: 1rem;
+    }
+    .flex-header { 
+        height: 12vh;
     }
     .content {
         text-align: center;
@@ -165,4 +173,9 @@ a:hover {
     .footer a:first-of-type::before {
         content: none;
     }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1024) {
+    
 }
