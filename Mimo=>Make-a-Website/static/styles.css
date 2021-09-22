@@ -64,7 +64,7 @@ a:hover {
     margin: 0 auto;
 }
 
-.post {
+.post, .about {
     max-width: 900px;
     margin: 0 auto;
     padding: 60px 20px;
@@ -95,10 +95,33 @@ a:hover {
     letter-spacing: 0.1em;
 }
 
+.about-author img {
+    width: 280px;
+    height: 300px;
+    border-radius: 15%;
+    border: solid 1px #a2a2a2;
+    filter: drop-shadow(0 0 6px rgba(0, 0 , 0, 0.5));
+    display: block;
+    margin: 0 auto;
+}
+
+.about-title { 
+    text-align: center;
+}
+
+.about-content p:first-of-type { 
+    text-align: center;
+}
+
 .footer { 
     background-color: #2f2f2f;
     padding: 20px 0;
     color: white;
+}
+
+.footer a {
+    display: block;
+    padding: 2px 0;
 }
 
 .column { 
@@ -115,4 +138,31 @@ a:hover {
 
 .networks { 
     line-height: 1.8;
+}
+
+@media (max-width: 767px) {
+    .header { 
+        height: 12vh;
+        line-height: 12vh;
+        padding: 0 1.5vh;
+    }
+    .content {
+        text-align: center;
+    }
+    .about-content { 
+        text-align: center;
+    }
+    .footer { 
+        text-align: center;
+        padding: 0 1.5vh;
+    }
+    .footer a {
+        display: inline;
+    }
+    .footer a::before {
+        content: '- ';
+    }
+    .footer a:first-of-type::before {
+        content: none;
+    }
 }
