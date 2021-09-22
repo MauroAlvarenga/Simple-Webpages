@@ -67,14 +67,19 @@ a:hover {
     margin: 0 auto;
 }
 
-.post, .about {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 60px 20px;
+.card {
+    background-color: rgba(224, 224, 224, 0.5);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0px 2px 10px 2px #00000090;
 }
 
-.post:first-of-type { 
-    padding-bottom: 0;
+.post, .about {
+    max-width: 900px;
+    margin: 7vh auto;
+    padding: 50px 30px;
 }
 
 .post-author img {
@@ -87,6 +92,7 @@ a:hover {
 
 .post-author{
     font-weight: bold;
+    color: #222;
 }
 
 .post-date{ 
@@ -150,6 +156,9 @@ a:hover {
     }
     #header-title {
         font-size: 1rem;
+    }
+    .container {
+        max-width: 90vw;
     }
     .flex-header { 
         height: 12vh;
