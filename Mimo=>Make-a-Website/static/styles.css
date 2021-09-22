@@ -176,6 +176,20 @@ a:hover {
 }
 
 /* Tablet */
-@media (min-width: 768px) and (max-width: 1024) {
-    
+@media (min-width: 768px) and (max-width: 1024px) {
+    .header { 
+        height: 10vh;
+    }
+    .flex-header {
+        height: 10vh;
+    }
+    .container {
+        max-width: 90vw;
+    }
+    .post, .about {
+        max-width: 75vw;
+    }
+    .column {
+        max-width: 60vw;
+    }
 }
