@@ -42,15 +42,6 @@ footer {
     width: 90%;
 }
 
-@media (min-width: 768px) {
-    .container {
-        padding: 20px;
-        width: 50%;
-        min-height: 400px;
-        margin-bottom: 20px;
-    }
-}
-
 .feat { 
     color: rgb(69, 134, 219);
 }
@@ -134,16 +125,48 @@ footer {
     background-color: rgba(0, 0, 0, 0.6);
     padding: .5rem;
     border-radius: .5rem;
-    width: 25%;
+    width: 80%;
     /* border: solid 1px rgba(0, 0, 0, 0.3); */
 }
 
 .repo {
     display: flex;
     justify-content: center;
-    gap: .4rem;
+}
+
+.repo span {
+    margin-right: .5rem;
 }
 
 .btn:hover { 
     box-shadow: inset 0px 0px 10px 1px rgba(255, 255, 255, 1), 0 0 10px 1px rgba(0, 0, 0, 0.7);
+}
+
+/** MQ's **/ 
+@media (min-width: 768px) {
+    .container {
+        padding: 20px;
+        width: 70%;
+        min-height: 400px;
+        margin-bottom: 20px;
+    }
+    .btn { 
+        width: 40%;
+    }
+}
+@media (min-width: 1024px) {
+    .container {
+        width: 60%;
+    }
+    .btn { 
+        width: 20%;
+    }
+}
+@media (min-width: 2000px) {
+    .container {
+        width: 40%;
+    }
+    .btn {
+        width: 25%;
+    }
 }
