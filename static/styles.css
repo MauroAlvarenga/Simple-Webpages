@@ -70,29 +70,28 @@ footer {
     overflow: hidden;
 }
 
-/** folded corner experiment **
-.card::after { 
-    content: ' ';
+ /* folded corner experiment ** 
+.card::before { 
+    content: '';
     position: absolute;
     top: 0;
     right: 0;
     border: solid 2rem black;
     border-width: 2rem;
     border-radius: 0 0 0 15px;
-    transition: border-width .2s;
-}*/
+    transition: border-width .4s;
+} */
 
 .card:hover {
     transform: translate(-1px, -1px);
     background-color: rgba(255, 255, 255, 0.75);
     transition: all .1s ease-in-out;
-    /* border-radius: 15px; */
     cursor: pointer;
 }
 
-.card:hover::after {
-    border-width: 0;
-}
+/* .card:hover::before {
+    border-width: 400px;
+} */
 
 .glass {
     background-color: rgba(255.0, 255.0, 255.0, 0.6);
@@ -154,6 +153,7 @@ footer {
         width: 40%;
     }
 }
+
 @media (min-width: 1024px) {
     .container {
         width: 55%;
@@ -162,6 +162,7 @@ footer {
         width: 20%;
     }
 }
+
 @media (min-width: 2000px) {
     .container {
         width: 40%;
