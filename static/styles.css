@@ -156,7 +156,7 @@ footer {
 }
 @media (min-width: 1024px) {
     .container {
-        width: 60%;
+        width: 55%;
     }
     .btn { 
         width: 20%;
