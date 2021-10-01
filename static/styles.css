@@ -154,6 +154,14 @@ p {
     margin: 0 .5rem;
 }
 
+.advice {
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.9);
+}
+
 /** MQ's **/ 
 @media (min-width: 768px) {
     .container {
