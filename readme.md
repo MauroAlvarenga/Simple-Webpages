@@ -3,7 +3,7 @@
 Mostly tutorial projects, simple HTML and CSS stuff.<br>
 Maybe in some time i can do something more interesting with them. 
 
-***Live Demo:*** https://simple-websites.netlify.app/
+***Live Demo:*** https://mauro-alvarenga-websites.netlify.app/
 
 ## 1 - Mimo "Make a Website Tutorial"
 
