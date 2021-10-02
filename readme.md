@@ -1,7 +1,9 @@
-# Simple Web projects repository
+# Simple Web projects Index
 
-Mostly tutorial projects, simple HTML and CSS stuff.<br>
+The repo contains mostly tutorial projects, simple HTML and CSS stuff.<br>
 Maybe in some time i can do something more interesting with them. 
+
+The website, it's becoming my personal projects index.
 
 ***Live Demo:*** https://mauro-alvarenga-websites.netlify.app/
 
